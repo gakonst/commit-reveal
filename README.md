@@ -9,3 +9,13 @@ Utilize the ECVerify library to verify signatures on messages easily.
 ## Run Tests
 
 `npm run test`
+
+## This is beautiful
+
+```solidity
+require(
+    prefixed(commitment).ecverify(sig, msg.sender), 
+    "Invalid signature"
+);
+```
+
